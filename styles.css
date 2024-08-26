@@ -33,8 +33,13 @@
     transition: .5s;
     }
     
+    
     .item:last-child{
-    margin-right: 70px;
+        margin-right: 70px;
+    }
+
+    #itemcatalogo {
+        margin-right: 260px ;
     }
     
     .item a {
@@ -46,6 +51,16 @@
     .item a:hover{
     color:#a3cbcb ;
     }
+
+    #iconenav {
+        font-size: 25px;
+    }
+
+    #iconenav:last-child {
+        margin-right: 10px;
+    }
+
+
     
     /* Estilo da logo */
 
@@ -63,6 +78,11 @@
     font-size: 40px;
     
     }
+
+    #instagram {
+        font-size: 30px;
+    }
+    
     /* Estilo do catálogo de produtos */
     .catalogo {
     padding-top:100px;
@@ -118,7 +138,7 @@
     border-radius: 5px;
     width: 200px;
     height: 50px;
-    font-size: 22px;
+    font-size: 18px;
     }
     
     .produto button:hover {
