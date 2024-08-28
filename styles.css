@@ -2,7 +2,8 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    font-family: Helvetica;
+    font-family: "Poppins", sans-serif;
+
 }
     
     /* Estilo do corpo da página */
@@ -179,3 +180,19 @@ nav {
         text-align: center;
     }
 
+ /* container home */
+
+    .container{
+        height: 1000px;
+    }
+
+    .history{
+        padding-top:100px;
+        padding-bottom:40px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 20px;
+        margin: 0 auto;
+        max-width: 1350px;
+    }
